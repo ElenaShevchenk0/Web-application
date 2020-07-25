@@ -34,7 +34,7 @@ def get_user_input():
                                   max_value=100, value=50)
     gre_awa = st.sidebar.slider('GRE General AWA percentile', min_value=0, 
                                   max_value=100, value=50)
-    major = st.sidebar.slider('Pure math=1 / Applied math=2 / Others=3', min_value=1, 
+    major = st.sidebar.slider('Undegrad major (Pure math=1 / Applied math=2 / Others=3)', min_value=1, 
                                   max_value=3, step=1)
     type_st = st.sidebar.checkbox('Check if Domestic(US)')
     research = st.sidebar.checkbox('Check if you have research experience?')
