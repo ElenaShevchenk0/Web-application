@@ -56,7 +56,7 @@ st.write(user_input)
 
 # Admission_math data
 
-data = pd.read_csv("~/Desktop/flashcard_/r_files/Admission_math")
+data = pd.read_csv("Admission_math")
 data = data.drop(["Unnamed: 0"], axis=1)
 data['gre_math'] = data['gre_math'].astype('category')
 data['type_st'] = data['type_st'].astype('category')
@@ -84,7 +84,7 @@ MSE1 = sm.tools.eval_measures.mse(data_test['accept_rate'],pred)
 
 # Admission_reduced data
 
-df = pd.read_csv("~/Desktop/flashcard_/python files/project_admission/Admission_reduced")
+df = pd.read_csv("Admission_reduced")
 df = df.drop(["Unnamed: 0"], axis=1)
 df['type_st'] = df['type_st'].astype('category')
 df['research'] = df['research'].astype('category')
