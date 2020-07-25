@@ -1,5 +1,4 @@
 pandas
 numpy
-statsmodels.api
-statsmodels.formula.api
+statsmodels
 streamlit
