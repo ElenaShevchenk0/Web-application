@@ -49,8 +49,8 @@ def get_user_input():
 
 user_input = get_user_input()
 
-st.subheader('User input:')
-st.write(user_input)
+#st.subheader('User input:')
+#st.write(user_input)
 
 
 
