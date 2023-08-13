@@ -1,5 +1,4 @@
-cython
-pandas==0.25.1
 numpy
+pandas
 statsmodels
 streamlit
