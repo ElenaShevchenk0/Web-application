@@ -111,7 +111,7 @@ MSE2 = sm.tools.eval_measures.mse(df_test['accept_rate'], pred_test)
 
 # prediction
 
-if user_input.get_value(0, 'gre_math') > 0:
+if user_input._get_value(0, 'gre_math') > 0:
    prediction = results.predict(user_input) 
    accuracy = 1-MSE2
 else:
